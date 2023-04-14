@@ -4,10 +4,11 @@ import './App.css';
 
 function App() {
   return (
-    <div style={{maxHeight: '100vh'}}>
-      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-        <h3>Hello, world!</h3>
+    <div className='main-content'>
+      <div className='logo-background'>
+        <img src='/logo.png' />
       </div>
+      <h3 style={{color: 'white'}}>Hello, world!</h3>
     </div>
   );
 }
