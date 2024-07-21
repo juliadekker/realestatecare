@@ -1,0 +1,11 @@
+.hello-world-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+
+  width: 100%;
+}
+
+.hello-world-text {
+  color: $main-color;
+}
