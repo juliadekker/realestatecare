@@ -4,6 +4,9 @@ import {
   mdiCheckCircle,
   mdiCog,
   mdiDotsGrid,
+  mdiHome,
+  mdiInformation,
+  mdiMagnify,
 } from "@mdi/js";
 
 export {
@@ -12,4 +15,7 @@ export {
   mdiCheckCircle as CheckCircle,
   mdiCog as Cog,
   mdiDotsGrid as Grid,
+  mdiHome as Home,
+  mdiInformation as Info,
+  mdiMagnify as Search,
 };
