@@ -1,16 +1,19 @@
-import './App.css';
+import './App.scss';
 import './styles/index.scss';
-import HelloWorld from './components/HelloWorld';
+import DashboardCard from './components/DashboardCard/DashboardCard';
 
 function App() {
   return (
-    <>
-      <div className='left-top-corner-green'></div>
-      <div className='left-top-corner-gray'></div>
-      <div className='right-bottom-corner-green'></div>
-      <div className='right-bottom-corner-gray'></div>
-      <HelloWorld />
-    </>
+    <div>
+      <div />
+      <div className='dashboard-card-container'>
+        <DashboardCard title='Toegewezen' icon='' />
+        <DashboardCard title='Uitgevoerd' icon='' />
+        <DashboardCard title='Documentatie' icon='' />
+        <DashboardCard title='Instellingen' icon='' />
+      </div>
+      <div />
+    </div>
   );
 }
 
