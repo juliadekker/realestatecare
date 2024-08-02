@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90px;
+  width: 100%;
+  background-color: $header-color;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  width: calc(50% - 32px);
+  padding-left: 16px;
+  margin-right: auto;
+
+  > img {
+    padding-top: 5px;
+    max-height: fit-content;
+  }
+}
+
+.header-icon {
+  max-height: 32px;
+  color: #d8d8d8;
+  margin-right: 16px;
+}

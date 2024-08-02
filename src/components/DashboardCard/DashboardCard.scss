@@ -1,6 +1,15 @@
-@import '../../styles/variables.scss';
+@import "../../styles/variables.scss";
 
 .dashboard-card {
-  border: 1px solid $card-border-color;
+  border: 1px solid rgba($card-border-color, 0.1);
   padding: 32px;
+  flex: 1 1 calc(100% / 4);
+  min-width: 80px;
+  box-shadow: 0px 2px 3px 0px rgba(112, 112, 112, 0.75);
+  border-radius: 6px;
+}
+
+.dashboard-card-title {
+  font-size: 16px;
+  text-align: center;
 }

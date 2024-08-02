@@ -1,3 +1,15 @@
-import { mdiCheckCircle } from '@mdi/js';
+import {
+  mdiBell,
+  mdiBookmarkOutline,
+  mdiCheckCircle,
+  mdiCog,
+  mdiDotsGrid,
+} from "@mdi/js";
 
-export { mdiCheckCircle as CheckCircle };
+export {
+  mdiBell as Bell,
+  mdiBookmarkOutline as Bookmark,
+  mdiCheckCircle as CheckCircle,
+  mdiCog as Cog,
+  mdiDotsGrid as Grid,
+};
